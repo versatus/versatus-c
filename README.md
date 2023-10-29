@@ -9,9 +9,11 @@ As per https://emscripten.org/docs/compiling/Building-Projects.html
 Recompile json-c using emmake.
 
 cd  ~/json-c-build-wasm
+
 emconfigure ~/json-c/cmake-configure
 
 cd ~/json-c
+
 emmake make
 
 emmake make install
